@@ -1,0 +1,31 @@
+<!-- mobile menu  -->
+    <div class="d-block d-lg-none mobile_menu" id="mobile_menu">
+        <!-- mobile menu close icon  -->
+        
+        <!-- <button class="mobile_menu_close_icon" id="menu_bar_close_icon"><i class="fa-solid fa-xmark"></i></button> -->
+        
+        <!-- mobile main menu box  -->
+        <div class="mobile_main_menu_box">
+            <ul>
+                <li><a href="#" class="justify-content-between">shop <i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="#" class="justify-content-between">explore <i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="#" class="active">bundle & save </a></li>
+                <li><a href="#" class="login"><i class="fa-regular fa-user"></i> login</a></li>
+                <li><a href="#" class="help"><i class="fa-regular fa-circle-question"></i> help</a></li>
+                <li><a href="#" class="contact">contact</a></li>
+            </ul>
+
+            <!-- selected menu  -->
+            <div >
+                <select class="selected_menu">
+                    <option value="australia"> Australia & new zealand</option>
+                    <option value="united">United states</option>
+                    <option value="kingdom">United kingdom</option>
+                    <option value="europe">Europe</option>
+                    <option value="canada">canada</option>
+                    <option value="international">international</option>
+                </select>
+            </div>
+        </div>
+        
+    </div>

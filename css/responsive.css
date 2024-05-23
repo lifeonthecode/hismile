@@ -1,0 +1,53 @@
+/* xxl devices  */
+@media (min-width: 1400px) {
+    
+}
+
+/* xl devices  */
+@media (max-width: 1400px) {
+    
+}
+
+/* lg devices  */
+@media (max-width: 1200px) {
+    
+}
+
+/* md devices  */
+@media (max-width: 992px) {
+    .product_text_content {
+        max-width: 100%;
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+/* sm devices  */
+@media (max-width: 768px) {
+    
+
+    .secondary_btn {
+        max-width: 390px;
+    }
+
+    .footer_bottom {
+        height: auto;
+    }
+}
+
+
+/* mobile devices  */
+@media (max-width: 576px) {
+
+    .smilecare_video {
+        height: 178px;
+    }
+    /* .newsletter_container {
+        padding: 32px 20px;
+    } */
+    .newsletter_content form {
+        width: 100%;
+    }
+
+
+}
