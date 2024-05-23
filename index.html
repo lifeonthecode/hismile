@@ -19,6 +19,40 @@
 
 
 
+    <!-- mobile menu  -->
+    <div class="mobile_main_menu" id="mobile_menu">
+        <!-- menu close btn  -->
+        <div class="menu_close_div">
+            <button class="mobile_menu_close_icon" id="menu_bar_close_icon"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <!-- mobile main menu box  -->
+        <div class="mobile_main_menu_box">
+            <ul>
+                <li><a href="#" class="justify-content-between">shop <i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="#" class="justify-content-between">explore <i class="fa-solid fa-chevron-right"></i></a></li>
+                <li><a href="#" class="active">bundle & save </a></li>
+                <li><a href="#" class="login"><i class="fa-regular fa-user"></i> login</a></li>
+                <li><a href="#" class="help"><i class="fa-regular fa-circle-question"></i> help</a></li>
+                <li><a href="#" class="contact">contact</a></li>
+            </ul>
+        </div>
+
+        <!-- selected menu  -->
+        <div>
+            <select class="selected_menu">
+                <option value="australia"> Australia & new zealand</option>
+                <option value="united">United states</option>
+                <option value="kingdom">United kingdom</option>
+                <option value="europe">Europe</option>
+                <option value="canada">canada</option>
+                <option value="international">international</option>
+            </select>
+        </div>
+    </div>
+    <div class="mobile_menu_overlay" id="mobile_menu_overlay"></div>
+
+
+
     <!-- header section  -->
     <header class="header_section" id="header_section">
 
@@ -343,7 +377,7 @@
 
     <!-- newsletter section  -->
     <section class="newsletter_section mb-88">
-        <div class="container p-0">
+        <div class="container">
             <div class="newsletter_container d-lg-flex align-items-center justify-content-between">
                 <!-- wrapper  -->
                 <div class="newsletter_content mb-2 mb-m-0">
