@@ -31,6 +31,59 @@ body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
+:root {
+    /* font family  */
+    --ff-arial: 'Arial';
+    --ff-helvetica: 'Helvetica';
+    --ff-neue: 'Neue';
+    --ff-sans: 'Sans';
+    --ff-circula: 'Circula';
+
+    /* color  */
+
+    --padding: 1.25rem;
+    --black: 0, 0, 0;
+    --white: 255, 255, 255;
+    --dark-1: 28, 28, 30;
+    --dark-2: 44, 44, 46;
+    --dark-3: 58, 58, 60;
+    --dark-4: 72, 72, 74;
+    --mid-1: 99, 99, 102;
+    --mid-2: 142, 142, 147;
+    --mid-3: 174, 174, 178;
+    --mid-4: 199, 199, 204;
+    --light-1: 209, 209, 214;
+    --light-2: 229, 229, 234;
+    --light-3: 242, 242, 247;
+    --light-4: 250, 250, 252;
+    --brand-pink: 236, 0, 140;
+    --brand-purple: 129, 0, 140;
+    --brand-blue: 17, 36, 92;
+    --brand-nhpro: 255, 117, 0;
+    --brand-v34: 68, 0, 153;
+    --brand-ha5: 80, 192, 232;
+    --link: 0, 122, 255;
+    --success: 52, 199, 89;
+    --error: 255, 59, 48;
+    --warning: 255, 170, 113;
+    --sale: 236, 0, 140;
+    --brand-peach: 255, 179, 134;
+    --brand-coconut: 171, 226, 191;
+    --brand-mango: 242, 198, 94;
+    --brand-mint: 158, 181, 203;
+    --brand-watermelon: 236, 134, 208;
+    --sale-primary: 236, 0, 140;
+    --sale-secondary: 229, 229, 234;
+    --sale-tertiary: 252, 161, 199;
+    --discount-text: 236, 0, 140;
+    --sale-primary-outline: 192, 1, 114;
+    --sale-secondary-outline: 195, 195, 195;
+    --sale-tertiary-outline: 253, 90, 158;
+    --hero-banner: 236, 57, 72;
+    --brand-yellow: 235, 255, 0;
+
+}
+
 /* bootstrap fixed width  */
 .container {
     max-width: 1288px !important;/*Set your own width %; */
@@ -421,7 +474,6 @@ body {
     opacity: 0;
     transition:all .3s ease;
     -webkit-transition: all .3s ease;
-
     padding: 48px 0px;
     z-index: 8;
     box-shadow: 0 1.5rem 2rem #d1d1d680;

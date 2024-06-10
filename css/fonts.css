@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Arial';
+    src: url('../webfonts/ArialMT.woff2') format('woff2'),
+        url('../webfonts/ArialMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../webfonts/Helvetica_cyr-Bold.woff2') format('woff2'),
+        url('../webfonts/Helvetica_cyr-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue';
+    src: url('../webfonts/Neue-RegularItalic.woff2') format('woff2'),
+        url('../webfonts/Neue-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sans';
+    src: url('../webfonts/Sans.woff2') format('woff2'),
+        url('../webfonts/Sans.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circula';
+    src: url('../webfonts/Circula-Medium.woff2') format('woff2'),
+        url('../webfonts/Circula-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
