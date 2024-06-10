@@ -2,10 +2,8 @@
 const header_section = document.getElementById('header_section');
 
 window.addEventListener('scroll', () => {
-    console.log(window.scrollY)
     if(window.scrollY >= 350) {
         header_section.classList.add('hide');
-        console.log('350 > : ',window.scrollY)
     }
     else {
         header_section.classList.remove('hide');

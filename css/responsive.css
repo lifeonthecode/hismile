@@ -39,12 +39,30 @@
 /* mobile devices  */
 @media (max-width: 576px) {
 
+
+    .newsletter_section {
+        padding: 0px 0px;
+    }
+    .product_text_content {
+        display: flex;
+        align-items: self-start;
+        justify-content: space-between;
+    }
+
+    .product_text_inner_wrapper h3 {
+        font-size: 1.3rem;
+    }
+
+    .product_text_content button {
+        padding: 8px 16px;
+        text-transform: capitalize;
+    
+    }
+
     .smilecare_video {
         height: 178px;
     }
-    /* .newsletter_container {
-        padding: 32px 20px;
-    } */
+
     .newsletter_content form {
         width: 100%;
     }

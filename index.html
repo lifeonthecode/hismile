@@ -79,14 +79,17 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6">
                         <div class="header_selected_menu ">
-                            <select>
-                                <option value="australia"> Australia & new zealand</option>
-                                <option value="united">United states</option>
-                                <option value="kingdom">United kingdom</option>
-                                <option value="europe">Europe</option>
-                                <option value="canada">canada</option>
-                                <option value="international">international</option>
-                            </select>
+                            <div class="select">
+                                <span class="select__flag" aria-hidden="true"></span>
+                                <select class="select__input" name="country-selector" id="country-selector">
+                                  <option value="I">international</option>
+                                  <option value="US">United States</option>
+                                  <option value="UK">United Kingdom</option>
+                                  <option value="C">Canada</option>
+                                  <option value="A">Australia</option>
+                                </select>
+                                <svg class="select__arrow" aria-hidden="true" viewBox="0 0 16 16"><polyline points="3.5,6.5 8,11 12.5,6.5" stroke-width="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></polyline></svg>
+                            </div>
                         </div>
                     </div>
                     
@@ -123,54 +126,59 @@
                     <!-- main menu desktop -->
                     <div class="d-lg-block d-none desktop_menu d-flex align-items-center ">
                         <ul class="d-flex align-items-center ">
-                            <li class="position-static "><a href="#" class="arrow_show">shop <i class="fa-solid fa-chevron-down down"></i> <i class="fa-solid fa-chevron-up up"></i></a>
+                            <li class="position-static ">
+                                <a href="#" class="arrow_show">shop <i class="fa-solid fa-chevron-down down"></i> </a>
                                 <!-- mega menu  -->
                                 <div class="mega_menu">
                                     
-                                    <ul >
-                                        <li><a class="title">Shop</a></li>
-                                        <li><a href="#">Shop all</a></li>
-                                        <li><a href="#">Best sellers</a></li>
-                                        <li><a href="#">Shop Bundles</a></li>
-                                        <li><a href="#">V34 Colour Corrector Serum</a></li>
-                                        <li><a href="#">PAP+ Whitening Strips</a></li>
-                                        <li><a href="#">Hismile Toothpaste</a></li>
-                                    </ul>
-
-                                    <div class="mega_menu_image_box">
-                                        <h4><a href="#">Shop Electric Toothbrush</a></h4>
-                                        <a href="#"><img src="assets/mega_menu/Nav_-_Electric_Toothbrush_555x.png" alt=""></a>
-                                    </div>
-                                    <div class="mega_menu_image_box">
-                                        <h4><a href="#">Learn about Hismile Research</a></h4>
-                                        <a href="#"><img src="assets/mega_menu/Unlock_Flavours_-_Hero_-_M_555x.png" alt=""></a>
+                                    <div class="mega_menu_inner">
+                                        <ul >
+                                            <li><a class="title">Shop</a></li>
+                                            <li><a href="#">Shop all</a></li>
+                                            <li><a href="#">Best sellers</a></li>
+                                            <li><a href="#">Shop Bundles</a></li>
+                                            <li><a href="#">V34 Colour Corrector Serum</a></li>
+                                            <li><a href="#">PAP+ Whitening Strips</a></li>
+                                            <li><a href="#">Hismile Toothpaste</a></li>
+                                        </ul>
+    
+                                        <div class="mega_menu_image_box">
+                                            <h4><a href="#">Shop Electric Toothbrush</a></h4>
+                                            <a href="#"><img src="assets/mega_menu/Nav_-_Electric_Toothbrush_555x.png" alt=""></a>
+                                        </div>
+                                        <div class="mega_menu_image_box">
+                                            <h4><a href="#">Learn about Hismile Research</a></h4>
+                                            <a href="#"><img src="assets/mega_menu/Unlock_Flavours_-_Hero_-_M_555x.png" alt=""></a>
+                                        </div>
                                     </div>
                                 </div>
 
                             </li>
 
-                            <li class="position-static "><a href="#" class="arrow_show">explore <i class="fa-solid fa-chevron-down down"></i> <i class="fa-solid fa-chevron-up up"></i></a>
+                            <li class="position-static "><a href="#" class="arrow_show">explore <i class="fa-solid fa-chevron-down down"></i></a>
 
                                 <!-- mega menu  -->
                                 <div class="mega_menu">
                                     
-                                    <ul >
-                                        <li ><a class="title">Explore</a></li>
-                                        <li><a href="#">Our Story</a></li>
-                                        <li><a href="#">Hismile Research</a></li>
-                                        <li><a href="#">How whitening works</a></li>
-                                        <li><a href="#">Community Trials</a></li>
-                                        <li><a href="#">Hismile Professional</a></li>
-                                        <li><a href="#">Hismile Careers</a></li>
-                                    </ul>
-
-                                    <div class="mega_menu_image_box">
-                                        <h4><a href="#">Shop Electric Toothbrush</a></h4>
-                                        <a href="#"><img src="assets/mega_menu/Hismile_Professional_555x.png" alt=""></a>
-                                    </div>
-                                    <div class="mega_menu_image_box">
-                                        <h4><a href="#">Learn about Hismile Research</a></h4>
-                                        <a href="#"><img src="assets/mega_menu/NavRework_-_Hismile_Research_-_01_555x.png" alt=""></a>
+                                    <div class="mega_menu_inner">
+                                        <ul >
+                                            <li ><a class="title">Explore</a></li>
+                                            <li><a href="#">Our Story</a></li>
+                                            <li><a href="#">Hismile Research</a></li>
+                                            <li><a href="#">How whitening works</a></li>
+                                            <li><a href="#">Community Trials</a></li>
+                                            <li><a href="#">Hismile Professional</a></li>
+                                            <li><a href="#">Hismile Careers</a></li>
+                                        </ul>
+    
+                                        <div class="mega_menu_image_box">
+                                            <h4><a href="#">Shop Electric Toothbrush</a></h4>
+                                            <a href="#"><img src="assets/mega_menu/Hismile_Professional_555x.png" alt=""></a>
+                                        </div>
+                                        <div class="mega_menu_image_box">
+                                            <h4><a href="#">Learn about Hismile Research</a></h4>
+                                            <a href="#"><img src="assets/mega_menu/NavRework_-_Hismile_Research_-_01_555x.png" alt=""></a>
+                                        </div>
                                     </div>
                                 </div>
                             
@@ -192,16 +200,21 @@
 
     <!-- banner section  -->
     <section class="banner_section pb-88">
+        <div class="banner_top d-block d-md-none">
+            <div class="banner_image">
+                <a href="#"><img src="assets/banner/banner_image.png" alt=""></a>
+            </div>
+        </div>
         <div class="container">
             <div class="row gx-5 align-items-center flex-column-reverse flex-md-row">
-                <div class="col-xl-5 col-lg-5 col-md-5">
+                <div class="col-xl-5 col-lg-5 col-md-5 ">
                     <div class="banner_content text-center text-md-start mt-4  mt-md-0">
                         <h3 >Pink Lemonade  Toothpaste is here!</h3>
                         <p>Say hello to a burst of pink sweetness that will make your taste buds fizz with fun!</p>
                         <button>Shop Pink Lemonade</button>
                     </div>
                 </div>
-                <div class="col-xl-7 col-lg-7 col-md-7">
+                <div class="col-xl-7 col-lg-7 col-md-7  d-none d-md-block">
                     <div class="banner_image">
                         <a href="#"><img src="assets/banner/banner_image.png" alt=""></a>
                     </div>
@@ -216,9 +229,11 @@
     <section class="product_section px-20 max-w-1440 mx-auto d-lg-flex align-items-center mb-88">
         <!-- wrapper left  -->
         <div class="product_text_content">
-            <h3>Shop our best sellers</h3>
-            <p>Explore our range of fan-favourites</p>
-            <a href="#">Shop all <i class="fa-solid fa-chevron-right"></i></a>
+            <div class="product_text_inner_wrapper">
+                <h3>Shop our best sellers</h3>
+                <p>Explore our range of fan-favourites</p>
+            </div>
+            <button><span class="d-none d-md-inline-block">Shop</span> all <i class="fa-solid fa-angle-right"></i></button>
         </div>
 
         <!-- wrapper right -->
@@ -377,24 +392,22 @@
 
     <!-- newsletter section  -->
     <section class="newsletter_section mb-88">
-        <div class="container">
-            <div class="newsletter_container d-lg-flex align-items-center justify-content-between">
-                <!-- wrapper  -->
-                <div class="newsletter_content mb-2 mb-m-0">
-                    <h3>Want the chance to
-                        trial our new products?</h3>
-                </div>
-                <!-- wrapper  -->
-                <div class="newsletter_content">
-                    <p>Sign up for the latest news, exclusive offers, and the chance to trial new and unreleased products.</p>
-                </div>
-                <!-- wrapper  -->
-                <div class="newsletter_content">
-                    <form>
-                        <input type="email" placeholder="please enter your email...">
-                        <button type="submit"><i class="fa-solid fa-arrow-right-long"></i></button>
-                    </form>
-                </div>
+        <div class="newsletter_container d-lg-flex align-items-center justify-content-between">
+            <!-- wrapper  -->
+            <div class="newsletter_content mb-2 mb-m-0">
+                <h3>Want the chance to
+                    trial our new products?</h3>
+            </div>
+            <!-- wrapper  -->
+            <div class="newsletter_content">
+                <p>Sign up for the latest news, exclusive offers, and the chance to trial new and unreleased products.</p>
+            </div>
+            <!-- wrapper  -->
+            <div class="newsletter_content">
+                <form>
+                    <input type="email" placeholder="please enter your email...">
+                    <button type="submit"><i class="fa-solid fa-arrow-right-long"></i></button>
+                </form>
             </div>
         </div>
     </section>
@@ -454,14 +467,14 @@
         </div>
 
         <div class="container d-block d-lg-none">
-            <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
-                      shop
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        shop
                     </button>
                   </h2>
-                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
                         <div class="footer_wrapper">
                             <ul>
@@ -477,11 +490,11 @@
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                       support
                     </button>
                   </h2>
-                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
                         <div class="footer_wrapper">
                             <ul>
@@ -495,11 +508,11 @@
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                      explore
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        explore
                     </button>
                   </h2>
-                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
                         <div class="footer_wrapper">
                             <ul>
@@ -513,23 +526,23 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                      explore
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <div class="footer_wrapper">
-                            <ul>
-                                <li><a href="#">Our Story</a></li>
-                                <li><a href="#">Hismile Research</a></li>
-                                <li><a href="#">Hismile Professional</a></li>
-                                <li><a href="#">Hismile Careers</a></li>
-                            </ul>
-                        </div>
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        explore
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+                          <div class="footer_wrapper">
+                              <ul>
+                                  <li><a href="#">Our Story</a></li>
+                                  <li><a href="#">Hismile Research</a></li>
+                                  <li><a href="#">Hismile Professional</a></li>
+                                  <li><a href="#">Hismile Careers</a></li>
+                              </ul>
+                          </div>
+                      </div>
                     </div>
-                  </div>
                 </div>
             </div>
         </div>
@@ -554,15 +567,18 @@
                     </div>
                     <div class="col-xl-7 col-lg-8 col-md-12 col-12">
                         <div class="footer_menu gap-3 d-lg-flex align-items-center">
-                            <div class="header_selected_menu text-center text-lg-start mb-3 mb-lg-0">
-                                <select>
-                                    <option value="australia"> Australia & new zealand</option>
-                                    <option value="united">United states</option>
-                                    <option value="kingdom">United kingdom</option>
-                                    <option value="europe">Europe</option>
-                                    <option value="canada">canada</option>
-                                    <option value="international">international</option>
-                                </select>
+                            <div class="header_selected_menu d-flex d-md-block justify-content-center mb-3 mb-lg-0">
+                                <div class="select">
+                                    <span class="select__flag" aria-hidden="true"></span>
+                                    <select class="select__input" name="countries-selector" id="countries-selector">
+                                      <option value="I">international</option>
+                                      <option value="US">United States</option>
+                                      <option value="UK">United Kingdom</option>
+                                      <option value="C">Canada</option>
+                                      <option value="A">Australia</option>
+                                    </select>
+                                    <svg class="select__arrow" aria-hidden="true" viewBox="0 0 16 16"><polyline points="3.5,6.5 8,11 12.5,6.5" stroke-width="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></polyline></svg>
+                                </div>
                             </div>
 
                             <ul class="d-flex align-items-center gap-3 justify-content-center justify-content-lg-start mb-3 mb-lg-0">
@@ -585,4 +601,4 @@
 <!-- bootstrap js link include  -->
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/main.js"></script>
-</div>
+</html>
